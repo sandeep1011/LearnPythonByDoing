@@ -34,7 +34,7 @@ for article in soup.find_all('article'):
     vid_id = vid_id.split('?')[0]
     # print(vid_id)
 
-    yt_link = f'http://youtube.com/watch?v={vid_id}'
+    yt_link = 'http://youtube.com/watch?v={}'.foramt(vid_id)
     print(yt_link)
 
     print()
